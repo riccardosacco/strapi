@@ -1,0 +1,90 @@
+{
+  "kind": "singleType",
+  "collectionName": "resumes",
+  "info": {
+    "singularName": "resume",
+    "pluralName": "resumes",
+    "displayName": "Resume",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "lastname": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "summary": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {}
+    },
+    "biography": {
+      "type": "richtext",
+      "pluginOptions": {}
+    },
+    "works": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.work",
+      "pluginOptions": {}
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.skill",
+      "pluginOptions": {}
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.education",
+      "pluginOptions": {}
+    },
+    "languages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.language",
+      "pluginOptions": {}
+    },
+    "interests": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.interest",
+      "pluginOptions": {}
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.project",
+      "pluginOptions": {}
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.social"
+    },
+    "contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.contact"
+    }
+  }
+}

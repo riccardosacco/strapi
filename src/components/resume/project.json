@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_resume_projects",
+  "info": {
+    "displayName": "Project",
+    "icon": "project-diagram"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

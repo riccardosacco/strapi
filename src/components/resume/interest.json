@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_resume_interests",
+  "info": {
+    "displayName": "Interest",
+    "icon": "chess-knight"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

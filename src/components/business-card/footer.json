@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_business_card_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "richtext",
+      "required": true
+    },
+    "website": {
+      "type": "string",
+      "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
+    },
+    "alias": {
+      "type": "string"
+    }
+  }
+}
